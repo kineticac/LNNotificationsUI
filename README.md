@@ -29,6 +29,16 @@ See a video [here](https://vimeo.com/105395794).
 
 ## Adding to Your Project
 
+###CocoaPods
+
+Add the following to your Podfile:
+
+```pod 'LNNotificationsUI', :git => "https://github.com/kineticac/LNNotificationsUI.git"```
+
+Then run `pod install`
+
+You can now `import LNNotificationsUI`
+
 ###Carthage
 
 Add the following to your Cartfile:
